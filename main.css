@@ -30,12 +30,13 @@ body{
     background-color: #F6F6F6;
     padding: 15px;
     margin: 10px;
+    margin-top: 0px;
     position: relative;
     float: left;
     border-right: #A7D7F9;
     border-right-style: solid;
     border-right-width: 1px;
-    height: 4000px;
+    height: 5500px;
    
 }
 
@@ -186,8 +187,41 @@ h2{
         border-bottom-color:#A7D7F9 ;
 }
 
-@media (min-width: 1600px) {
-    #leer{
-        width: 50%;
+@media (max-width: 1600px) {
+    section{
+        display: block;
+        flex-wrap: wrap;
+        padding-left: 150px;
+    }
+    header{
+        
+        margin: 0px;
+    }
+    .indice{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav{
+        display: block;
+        flex-wrap: wrap;
+        
+    }
+
+    .aside{
+        display: block;
+        height: 8000px;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+@media (max-width: 1700px)
+{
+    .segundafila{
+        display: block;
+    }
+
+    .blanco{
+        margin-left: 0px !important;
     }
 }
